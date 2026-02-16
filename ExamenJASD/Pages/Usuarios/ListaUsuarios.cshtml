@@ -1,0 +1,74 @@
+﻿@page
+@model ExamenJASD.Pages.Usuarios.ListaUsuariosModel
+@{
+}
+
+<button type="button" id="botonAgregar" data-bs-toggle="modal" data-bs-target="#formModal" class="btn btn-dark">Agregar</button>
+<table class="table" id="tablaUsuarios">
+    <thead class="table-light">
+        <tr>
+            <th>Id</th>
+            <th>Usuario</th>
+            <th>Nombre Completo</th>
+            <th>Correo</th>
+            <th>Estatus</th>
+            <th>Fecha Alta</th>
+            <th>Fecha Modificacion</th>
+            <th>Accion</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+
+
+<!-- Modal -->
+<div class="modal fade" id="formModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Usuarios</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="formUsuario">
+                    <div id="erroresForm" class="alert alert-danger d-none"></div>
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" name="iId" value="">
+                    <div class="mb-3">
+                        <label>Nombre Completo</label>
+                        <input type="text" id="sNombre" name="sNombre" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label>Usuario</label>
+                        <input type="text" id="sUsuario" name="sUsuario" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label>Password</label> 
+                        <input type="password" id="sPassword" name="sPassword" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label>Correo</label>
+                        <input type="email" id="sEmail" name="sEmail" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label>Estatus</label>
+                        <input type="text" id="sEstatus" name="sEstatus" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label>Fecha Alta</label>
+                        <input type="datetime-local" id="dtFechaAlta" name="dtFechaAlta" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label>Fecha Modificacion</label>
+                        <input type="datetime-local" id="dtFechaModificacion" name="dtFechaModificacion" class="form-control" required>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="botonCancelar" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="button" id="botonRegistrar" class="btn btn-primary">Registrar</button>
+            </div>
+        </div>
+    </div>
+</div>

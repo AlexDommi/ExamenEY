@@ -1,0 +1,30 @@
+﻿@page
+@model ExamenJASD.Pages.Login.LoginModel
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h3>Iniciar Sesión</h3>
+
+<form method="post">
+    @Html.AntiForgeryToken()
+
+    @if (!string.IsNullOrEmpty(Model.Mensaje))
+    {
+        <div class="alert alert-danger">
+            @Model.Mensaje
+        </div>
+    }
+
+    <div class="mb-3">
+        <label asp-for="Usuario" class="form-label">Usuario</label>
+        <input type="text" class="form-control" asp-for="Usuario" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Password" class="form-label">Password</label>
+        <input type="password" class="form-control" asp-for="Password" />
+    </div>
+
+    <button type="submit" class="btn btn-dark">Ingresar</button>
+</form>

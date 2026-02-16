@@ -1,0 +1,8 @@
+C:\Users\PC\source\repos\ExamenJASD\VO\bin\Debug\VO.dll
+C:\Users\PC\source\repos\ExamenJASD\VO\bin\Debug\VO.pdb
+C:\Users\PC\source\repos\ExamenJASD\VO\obj\Debug\VO.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\ExamenJASD\VO\obj\Debug\VO.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\ExamenJASD\VO\obj\Debug\VO.dll
+C:\Users\PC\source\repos\ExamenJASD\VO\obj\Debug\VO.pdb
+C:\Users\PC\source\repos\ExamenJASD\VO\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\PC\source\repos\ExamenJASD\VO\obj\Debug\VO.csproj.Up2Date

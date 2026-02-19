@@ -1,5 +1,6 @@
 C:\Users\PC\source\repos\ExamenJASD\ExamenJASD\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
 C:\Users\PC\source\repos\ExamenJASD\ExamenJASD\wwwroot\DB\Usuarios.txt
+C:\Users\PC\source\repos\ExamenJASD\ExamenJASD\wwwroot\js\Dashboards.js
 C:\Users\PC\source\repos\ExamenJASD\ExamenJASD\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
 C:\Users\PC\source\repos\ExamenJASD\ExamenJASD\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
 C:\Users\PC\source\repos\ExamenJASD\ExamenJASD\wwwroot\lib\jquery-validation\dist\additional-methods.js
@@ -65,6 +66,7 @@ C:\Users\PC\source\repos\ExamenJASD\ExamenJASD\wwwroot\lib\bootstrap\dist\css\bo
 wwwroot\DB\Usuarios.txt
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\js\Dashboards.js
 wwwroot\js\modal.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\LICENSE

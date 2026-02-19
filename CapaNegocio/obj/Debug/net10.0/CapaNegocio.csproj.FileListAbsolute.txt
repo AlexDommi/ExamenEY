@@ -15,3 +15,4 @@ C:\Users\PC\source\repos\ExamenJASD\CapaNegocio\obj\Debug\net10.0\CapaNegocio.dl
 C:\Users\PC\source\repos\ExamenJASD\CapaNegocio\obj\Debug\net10.0\refint\CapaNegocio.dll
 C:\Users\PC\source\repos\ExamenJASD\CapaNegocio\obj\Debug\net10.0\CapaNegocio.pdb
 C:\Users\PC\source\repos\ExamenJASD\CapaNegocio\obj\Debug\net10.0\ref\CapaNegocio.dll
+C:\Users\PC\source\repos\ExamenJASD\CapaNegocio\obj\Debug\net10.0\CapaNegocio.sourcelink.json

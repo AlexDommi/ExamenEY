@@ -19,7 +19,7 @@ namespace VO
         private string _sEstatus;
         private DateTime _dtFechaAlta;
         private DateTime _dtFechaModificacion;
-
+        private string _sRFC;
         public int iId 
         { 
             get => _iId;
@@ -75,6 +75,11 @@ namespace VO
             set => _dtFechaModificacion = value;
         }
 
+        public string sRFC
+        {
+            get => _sRFC;
+            set => _sRFC = value;
+        }
         public UsuariosVO(DataRow dr)
         {
             iId = Convert.ToInt32(dr["EY_ID"]);

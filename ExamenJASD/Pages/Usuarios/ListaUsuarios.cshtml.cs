@@ -1,6 +1,7 @@
 using CapaNegocio;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using VO;
 
 namespace ExamenJASD.Pages.Usuarios
@@ -8,19 +9,25 @@ namespace ExamenJASD.Pages.Usuarios
     public class ListaUsuariosModel : PageModel
     {
         private readonly BLLRegistroUsuarios _bllUsuarios = new BLLRegistroUsuarios();
-
-        public JsonResult OnGetListaUsuarios()
+     
+        public IActionResult OnGetListaUsuarios()
         {
-            if (string.IsNullOrEmpty(HttpContext.Session.GetString("UsuarioLogueado")))
+            var usuario = HttpContext.Session.GetString("UsuarioLogueado");
+
+            if (string.IsNullOrEmpty(usuario))
             {
-                Response.Redirect("/Login/Login");
+                //return RedirectToPage("/Login/Login");
+                //se modifica porque la tabla se genera con JS
+                return new JsonResult(new { noAuth = true });
             }
 
             var ListaUsuarios = _bllUsuarios.GetListaUsuarios();
             return new JsonResult(ListaUsuarios);
+
         }
         public JsonResult OnGetListaUsuariosId(int iId)
         {
+
             var ListaUsuarios = _bllUsuarios.GetListaUsuariosById(iId);
             return new JsonResult(ListaUsuarios.FirstOrDefault());
         }

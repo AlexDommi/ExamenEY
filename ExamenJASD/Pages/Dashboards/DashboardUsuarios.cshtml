@@ -1,0 +1,19 @@
+﻿@page
+@model ExamenJASD.Pages.Dashboards.DashboardUsuariosModel
+@{
+}
+<div style="width: 800px;">
+    <canvas id="graficaUsuarios"></canvas>
+</div>
+
+@section Scripts {
+
+    <script>
+        var totalUsuarios = @Model.iTotalUsuarios;
+        var usuariosActivos = @Model.iUsuariosActivos;
+        var usuariosInactivos = @Model.iUsuariosInactivos;
+    </script>
+
+    <script src="~/js/Dashboards.js"></script>
+
+}

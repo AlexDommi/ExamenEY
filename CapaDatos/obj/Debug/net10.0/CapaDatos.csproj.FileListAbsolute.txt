@@ -13,3 +13,4 @@ C:\Users\PC\source\repos\ExamenJASD\CapaDatos\obj\Debug\net10.0\CapaDatos.dll
 C:\Users\PC\source\repos\ExamenJASD\CapaDatos\obj\Debug\net10.0\refint\CapaDatos.dll
 C:\Users\PC\source\repos\ExamenJASD\CapaDatos\obj\Debug\net10.0\CapaDatos.pdb
 C:\Users\PC\source\repos\ExamenJASD\CapaDatos\obj\Debug\net10.0\ref\CapaDatos.dll
+C:\Users\PC\source\repos\ExamenJASD\CapaDatos\obj\Debug\net10.0\CapaDatos.sourcelink.json

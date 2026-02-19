@@ -18,13 +18,13 @@
 
     <div class="mb-3">
         <label asp-for="Usuario" class="form-label">Usuario</label>
-        <input type="text" class="form-control" asp-for="Usuario" />
+        <input type="text" required class="form-control" asp-for="Usuario" />
     </div>
 
     <div class="mb-3">
         <label asp-for="Password" class="form-label">Password</label>
-        <input type="password" class="form-control" asp-for="Password" />
+        <input type="password" required class="form-control" asp-for="Password" />
     </div>
 
-    <button type="submit" class="btn btn-dark">Ingresar</button>
+    <button id="btnIngresar" type="submit" class="btn btn-dark">Ingresar</button>
 </form>

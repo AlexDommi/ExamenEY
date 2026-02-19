@@ -35,7 +35,13 @@ function cargarUsuarios() {
         url: '?handler=ListaUsuarios',
         type: 'GET',
         dataType: 'json',
-        success: function(data) {
+        success: function (data) {
+
+            if (data.noAuth) {
+                window.location.href = "/Login/Login";
+                return;
+            }
+
             var html = '';
             data.forEach(usuario => {
                 html += `<tr>
@@ -47,7 +53,7 @@ function cargarUsuarios() {
                     <td>${usuario.dtFechaAlta}</td>
                     <td>${usuario.dtFechaModificacion}</td>
                     <td>
-                        <button class="btn btn-warning btnEditar" data-id="${usuario.iId}">Editar</button>
+                        <button class="btn btn-warning btnEditar" id="btnEditar" data-id="${usuario.iId}"> <i id="iconEditar" class="fa-solid fa-pen-to-square"></i> Editar</button>
                     </td>
                 </tr>`;
             });

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExamenJASD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0230c2541a823f72db91731be1f6de5aa5907cb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af7a152f29549f133e2219a6e5226c96f8682039")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExamenJASD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExamenJASD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,3 +1,8 @@
+:root {
+    --colorAmarillo: rgb(255, 212, 59);
+    --colorNegro: black;
+}
+
 html {
   font-size: 14px;
 }
@@ -28,4 +33,26 @@ body {
 
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
+}
+
+#botonAgregar:hover > #iconAgregar, #botonRegistrar:hover > #iconRegistrar {
+    color: var(--colorNegro);
+}
+
+#botonAgregar > #iconAgregar, #iconRegistrar {
+    color: var(--colorAmarillo);
+}
+
+#btnIniciarSesion, #btnIngresar, #btnCerrarSesion, #botonRegistrar, #btnEditar:hover, #botonAgregar {
+    background-color: var(--colorNegro);
+    color: var(--colorAmarillo);
+}
+
+#btnIniciarSesion:hover, #btnCerrarSesion:hover, #btnIngresar:hover, #botonRegistrar:hover, #btnEditar:hover > iconAgregar, #botonAgregar:hover {
+    background-color: var(--colorAmarillo);
+    color: var(--colorNegro);
+}
+
+#navHeader {
+    background-color: var(--colorAmarillo);
 }

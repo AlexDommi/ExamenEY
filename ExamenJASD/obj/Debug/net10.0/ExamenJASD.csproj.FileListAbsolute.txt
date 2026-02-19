@@ -141,3 +141,5 @@ C:\Users\PC\source\repos\ExamenJASD\ExamenJASD\bin\Debug\net10.0\runtimes\win-x8
 C:\Users\PC\source\repos\ExamenJASD\ExamenJASD\bin\Debug\net10.0\CapaNegocio.dll
 C:\Users\PC\source\repos\ExamenJASD\ExamenJASD\bin\Debug\net10.0\CapaNegocio.pdb
 C:\Users\PC\source\repos\ExamenJASD\ExamenJASD\obj\Debug\net10.0\compressed\xkebzsn2t5-{0}-9vu0qyhcdm-9vu0qyhcdm.gz
+C:\Users\PC\source\repos\ExamenJASD\ExamenJASD\obj\Debug\net10.0\ExamenJASD.sourcelink.json
+C:\Users\PC\source\repos\ExamenJASD\ExamenJASD\obj\Debug\net10.0\compressed\0d85g0mzgf-{0}-jp5zwuz615-jp5zwuz615.gz
